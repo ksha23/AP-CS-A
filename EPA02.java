@@ -1,3 +1,34 @@
+/*
+EPA02: Pass/Fail
+Description/Instructions:
+Students stress about their grades. It’s only natural, because grades are important! However, many universities offer the option to take certain classes as pass/fail. Generally speaking, if you get a grade of 70 or above, you pass. Otherwise, you fail.
+
+Your job is to write a program to  read in a list of grades and determine if the student earning that grade passed or failed the class.
+
+Input:
+You must read a file titled data.txt will contain one integer on each line denoting a student’s grade.  Each test case will have the following input:
+A single integer grade, anywhere between Integer.MIN_VALUE(-2147483648) <= grade <= Integer.MAX_VALUE(2147483647) 
+In other words, you must accept all integer values. You don’t have to handle invalid inputs such as doubles, and other junk.
+
+6
+0
+48
+69
+70
+87
+100
+
+Output:
+FAIL
+FAIL
+FAIL
+FAIL
+PASS
+PASS
+PASS
+
+*/
+
 import java.io.File; // Import the File class
 import java.io.FileNotFoundException; // Import this class to handle errors
 import java.util.Scanner; // Import the Scanner class to read text files
